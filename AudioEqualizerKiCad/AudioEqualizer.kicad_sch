@@ -1,0 +1,244 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 135.89 53.34)
+		(size 29.21 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2bae645b-f440-413c-995f-a43a92728812")
+		(property "Sheetname" "Summing_OP_Amp"
+			(at 135.89 52.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Summing_OP_Amp.kicad_sch"
+			(at 135.89 94.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AudioEqualizer"
+				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 53.34)
+		(size 27.94 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "52b0daff-14b8-4e9a-ae92-5acfd9920b8d")
+		(property "Sheetname" "Power_Supply"
+			(at 176.53 52.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Supply.kicad_sch"
+			(at 176.53 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AudioEqualizer"
+				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 54.61)
+		(size 25.4 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8e0a7e18-132d-4840-bd79-5f7f18759a31")
+		(property "Sheetname" "RLC_Cells"
+			(at 54.61 53.8984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RLC_Cells.kicad_sch"
+			(at 54.61 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AudioEqualizer"
+				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 52.07)
+		(size 26.67 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e8a5fcc0-5745-418b-9143-49a9387ad4e5")
+		(property "Sheetname" "RCA(AudioINorOut)"
+			(at 215.9 51.3584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RCA(AudioINorOut).kicad_sch"
+			(at 215.9 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AudioEqualizer"
+				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 54.61)
+		(size 26.67 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f697aaec-c2f5-4c40-aae5-828b28e9a7e9")
+		(property "Sheetname" "Gyrator"
+			(at 93.98 53.8984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Gyrator.kicad_sch"
+			(at 93.98 94.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AudioEqualizer"
+				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
