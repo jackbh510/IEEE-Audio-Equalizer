@@ -1,0 +1,51 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP 5900-104-RC
+D High Current RF Choke Bobbin Core 100mH 10% 1KHz Ferrite 70mA 82Ohm DCR AXL
+K
+F http://www.bourns.com/docs/Product-Datasheets/5900_series.pdf
+$ENDCMP
+#
+$CMP PDB181-K420K-103B
+D Potentiometers 10K SINGLE
+K
+F https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf
+$ENDCMP
+#
+$CMP NE5532DR
+D NE5532DR, Dual Operational Amplifier 10MHz, 8-Pin SOIC
+K
+F http://www.ti.com/lit/ds/symlink/ne5532.pdf
+$ENDCMP
+#
+$CMP 5900-223-RC
+D Power Inductors - Leaded 22mH 10%
+K
+F https://www.mouser.in/datasheet/2/54/5900_series-777308.pdf
+$ENDCMP
+#
+$CMP R82EC4100DQ70J
+D R82, Film, Metallized Polyester Stacked, Automotive Grade, 1 uF, 5%, 63 VAC, 100 VDC, 105C, -55C, 85C, 0.8 % , 5 GOhms, 200 V/us, 7000 pH, 0.95 g, 7.2mm, 11mm, 6mm, Lead Spacing = 5mm, 1400
+K
+F https://www.yageogroup.com/content/datasheet/asset/file/KEM_F3101_R82
+$ENDCMP
+#
+$CMP R82DC4100DQ60J
+D R82, Film, Metallized Polyester Stacked, Automotive Grade, 1 uF, 5%, 40 VAC, 63 VDC, 105C, -55C, 85C, 0.8 % , 5 GOhms, 160 V/us, 7000 pH, 0.53 g, 7.2mm, 10mm, 5mm, Lead Spacing = 5mm, 1700
+K
+F https://www.yageogroup.com/content/datasheet/asset/file/KEM_F3101_R82
+$ENDCMP
+#
+$CMP ECQ-E2685JF
+D ECQ-E2685JF
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDI0000/ABD0000C179.pdf
+$ENDCMP
+#
+#End Doc Library

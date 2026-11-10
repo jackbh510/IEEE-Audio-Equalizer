@@ -1,0 +1,254 @@
+(footprint "INDAD6888W80L2286D1151"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "5900 Series")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 34.45 0 0)
+		(layer "F.SilkS")
+		(uuid "b84d86f9-2c0f-4370-82e5-26ee6e3628a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "INDAD6888W80L2286D1151"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9be078d4-867a-4b9e-b7dd-f595be5e8fda")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef1113b5-ab08-4929-a2f8-680ab57989a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "312c0dfa-5386-4040-a512-0c3c6e5028e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 14.12 0)
+		(end 23.02 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08847eaa-f70c-45c3-a441-7877fe61d3f1")
+	)
+	(fp_line
+		(start 23.02 -5.753)
+		(end 45.88 -5.753)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b10b5ff9-5b8e-48ee-b7ca-e582a501bab8")
+	)
+	(fp_line
+		(start 23.02 5.753)
+		(end 23.02 -5.753)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b22b8225-ec13-4fe6-8eb0-3cd6dd53888e")
+	)
+	(fp_line
+		(start 45.88 -5.753)
+		(end 45.88 5.753)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2597a0bd-9d2e-414b-ad17-842bfc3f196d")
+	)
+	(fp_line
+		(start 45.88 0)
+		(end 54.78 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97cb3bc1-37af-409a-941c-5de4c68e6b3b")
+	)
+	(fp_line
+		(start 45.88 5.753)
+		(end 23.02 5.753)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c300947-081b-4b9d-a445-1a8a1eeeeba7")
+	)
+	(fp_line
+		(start 12 -6.103)
+		(end 57.2 -6.103)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4a13415-1204-4985-a01b-614b2cd3ea73")
+	)
+	(fp_line
+		(start 12 6.103)
+		(end 12 -6.103)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2bacbf0d-cad8-44e3-89b6-4c144883dc33")
+	)
+	(fp_line
+		(start 56.9 -6.103)
+		(end 56.9 6.103)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "51ca40d1-be32-476f-8a15-1eb275d5ccab")
+	)
+	(fp_line
+		(start 57.2 6.103)
+		(end 12 6.103)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3d0ebb5-f209-40af-98e3-fbfee3844e8b")
+	)
+	(fp_line
+		(start 13.02 0)
+		(end 23.02 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a1689850-679c-44ce-a7aa-5d560c1aa2ff")
+	)
+	(fp_line
+		(start 23.02 -5.753)
+		(end 45.88 -5.753)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa114482-2db6-47ad-ae37-1144d4c9a957")
+	)
+	(fp_line
+		(start 23.02 5.753)
+		(end 23.02 -5.753)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea0f8027-6fef-4c21-bf14-75fba65624a7")
+	)
+	(fp_line
+		(start 45.88 -5.753)
+		(end 45.88 5.753)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f2aec6a7-49d3-4ac4-ad50-621c7c90f0c3")
+	)
+	(fp_line
+		(start 45.88 0)
+		(end 55.88 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd04637f-9cd2-4a07-bc8a-47ca82008eb0")
+	)
+	(fp_line
+		(start 45.88 5.753)
+		(end 23.02 5.753)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4dfb9dd8-3d0d-4db5-b07b-2b04b2b61a48")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 34.45 0.1 0)
+		(layer "F.Fab")
+		(uuid "85662176-1aef-43e4-93a6-aa42ed8d5dba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 13.02 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7466aa88-51b5-4203-b32c-67109e93dd00")
+	)
+	(pad "2" thru_hole circle
+		(at 55.88 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5bcced1b-3ea2-4ab2-995e-5b0f133a7ad9")
+	)
+	(embedded_fonts no)
+	(model "D:\\Downloads\\GitHub\\IEEE Audio Equalizer\\AudioEqualizerKiCad\\Equalizer_Libraries\\SamacSys_Parts.3dshapes\\5900-223-RC.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,202 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 5900-104-RC
+#/1074760/2221561/2.50/2/3/Filter
+DEF 5900-104-RC FL 0 30 Y Y 1 F N
+F0 "FL" 650 300 50 H V L CNN
+F1 "5900-104-RC" 650 200 50 H V L CNN
+F2 "INDAD6888W80L2286D1151" 650 100 50 H I L CNN
+F3 "http://www.bourns.com/docs/Product-Datasheets/5900_series.pdf" 650 0 50 H I L CNN
+F4 "High Current RF Choke Bobbin Core 100mH 10% 1KHz Ferrite 70mA 82Ohm DCR AXL" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "542-5900-104-RC" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/5900-104-RC?qs=BAEg9VYngsXk6N%252BT0yvXoA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "5900-104-RC" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PDB181-K420K-103B
+#/705191/2221561/2.50/3/3/Variable Resistor
+DEF PDB181-K420K-103B VR 0 30 Y Y 1 F N
+F0 "VR" 850 300 50 H V L CNN
+F1 "PDB181-K420K-103B" 850 200 50 H V L CNN
+F2 "PDB181K420K103B" 850 100 50 H I L CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf" 850 0 50 H I L CNN
+F4 "Potentiometers 10K SINGLE" 850 -100 50 H I L CNN "Description"
+F5 "16.5" 850 -200 50 H I L CNN "Height"
+F6 "Bourns" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PDB181-K420K-103B" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "652-PDB181-K420K103B" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Bourns/PDB181-K420K-103B?qs=Ivs1Be2ZGq6RflNsykyxUA%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "PDB181-K420K-103B" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/pdb181-k420k-103b/bourns.html?utm_currency=USD&region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X CCW 1 0 0 200 R 50 50 0 0 P
+X WIPER 2 0 -100 200 R 50 50 0 0 P
+X CW 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model NE5532DR
+#/9918/2221561/2.50/8/3/Integrated Circuit
+DEF NE5532DR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "NE5532DR" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" 950 0 50 H I L CNN
+F4 "NE5532DR, Dual Operational Amplifier 10MHz, 8-Pin SOIC" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "NE5532DR" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE5532DR" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/NE5532DR?qs=LzFo6vGRJ4tu9UjwVgwNUQ%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "NE5532DR" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ne5532dr/texas-instruments.html?utm_currency=USD&region=asia" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1OUT 1 0 0 200 R 50 50 0 0 P
+X 1IN- 2 0 -100 200 R 50 50 0 0 P
+X 1IN+ 3 0 -200 200 R 50 50 0 0 P
+X VCC- 4 0 -300 200 R 50 50 0 0 P
+X VCC+ 8 1100 0 200 L 50 50 0 0 P
+X 2OUT 7 1100 -100 200 L 50 50 0 0 P
+X 2IN- 6 1100 -200 200 L 50 50 0 0 P
+X 2IN+ 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 5900-223-RC
+#/1476605/2221561/2.50/2/3/Inductor
+DEF 5900-223-RC L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "5900-223-RC" 650 150 50 H V L CNN
+F2 "INDAD6888W80L2286D1151" 650 50 50 H I L CNN
+F3 "https://www.mouser.in/datasheet/2/54/5900_series-777308.pdf" 650 -50 50 H I L CNN
+F4 "Power Inductors - Leaded 22mH 10%" 650 -150 50 H I L CNN "Description"
+F5 "" 650 -250 50 H I L CNN "Height"
+F6 "Bourns" 650 -350 50 H I L CNN "Manufacturer_Name"
+F7 "5900-223-RC" 650 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 650 -550 50 H I L CNN "Mouser Part Number"
+F9 "" 650 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "5900-223-RC" 650 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/5900-223-rc/bourns" 650 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model R82EC4100DQ70J
+#/396796/2221561/2.50/2/2/Capacitor
+DEF R82EC4100DQ70J C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "R82EC4100DQ70J" 350 150 50 H V L CNN
+F2 "R82EC4100DQ70J" 350 50 50 H I L CNN
+F3 "https://www.yageogroup.com/content/datasheet/asset/file/KEM_F3101_R82" 350 -50 50 H I L CNN
+F4 "R82, Film, Metallized Polyester Stacked, Automotive Grade, 1 uF, 5%, 63 VAC, 100 VDC, 105C, -55C, 85C, 0.8 % , 5 GOhms, 200 V/us, 7000 pH, 0.95 g, 7.2mm, 11mm, 6mm, Lead Spacing = 5mm, 1400" 350 -150 50 H I L CNN "Description"
+F5 "11" 350 -250 50 H I L CNN "Height"
+F6 "Yageo Group" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "R82EC4100DQ70J" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "80-R82EC4100DQ70J" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/KEMET/R82EC4100DQ70J?qs=06HLYMEcjuWQy8lv4UI%252BQg%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "R82EC4100DQ70J" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/r82ec4100dq70j/kemet-corporation?region=nac" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model R82DC4100DQ60J
+#/250643/2221561/2.50/2/2/Capacitor
+DEF R82DC4100DQ60J C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "R82DC4100DQ60J" 350 150 50 H V L CNN
+F2 "R82DC4100DQ60J" 350 50 50 H I L CNN
+F3 "https://www.yageogroup.com/content/datasheet/asset/file/KEM_F3101_R82" 350 -50 50 H I L CNN
+F4 "R82, Film, Metallized Polyester Stacked, Automotive Grade, 1 uF, 5%, 40 VAC, 63 VDC, 105C, -55C, 85C, 0.8 % , 5 GOhms, 160 V/us, 7000 pH, 0.53 g, 7.2mm, 10mm, 5mm, Lead Spacing = 5mm, 1700" 350 -150 50 H I L CNN "Description"
+F5 "10.1" 350 -250 50 H I L CNN "Height"
+F6 "Yageo Group" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "R82DC4100DQ60J" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "80-R82DC4100DQ60J" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/KEMET/R82DC4100DQ60J?qs=06HLYMEcjuVd2Wr1NUYuhw%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "R82DC4100DQ60J" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/r82dc4100dq60j/kemet-corporation?region=nac" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ECQ-E2685JF
+#/11345207/2221561/2.50/2/4/Capacitor
+DEF ECQ-E2685JF C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "ECQ-E2685JF" 350 150 50 H V L CNN
+F2 "ECQE2685JF" 350 50 50 H I L CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDI0000/ABD0000C179.pdf" 350 -50 50 H I L CNN
+F4 "ECQ-E2685JF" 350 -150 50 H I L CNN "Description"
+F5 "28.9" 350 -250 50 H I L CNN "Height"
+F6 "Panasonic" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "ECQ-E2685JF" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "667-ECQ-E2685JF" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Panasonic/ECQ-E2685JF/?qs=9ouE0kzBZ2pLv2exP6t%252Bbg%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

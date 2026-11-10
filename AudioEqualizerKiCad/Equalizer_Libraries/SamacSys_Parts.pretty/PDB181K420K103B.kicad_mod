@@ -59,7 +59,7 @@
   (pad 1 thru_hole rect (at 0.000 -0) (size 1.980 1.980) (drill 1.32) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 5.000 -0) (size 1.980 1.980) (drill 1.32) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 10.000 -0) (size 1.980 1.980) (drill 1.32) (layers *.Cu *.Mask))
-  (model PDB181-K420K-103B.stp
+  (model "D:\\Downloads\\GitHub\\IEEE Audio Equalizer\\AudioEqualizerKiCad\\Equalizer_Libraries\\SamacSys_Parts.3dshapes\\PDB181-K420K-103B.stp"
     (at (xyz 0.19685039370079 -0.14763779527559 0.6496062992126))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
