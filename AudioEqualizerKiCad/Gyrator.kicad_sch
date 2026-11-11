@@ -820,7 +820,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Audio_Equalizer:RC1206FR-071K91L"
+		(symbol "Audio_Equalizer:RT1206FRE075KL"
 			(body_styles demorgan)
 			(pin_names
 				(offset 0.254)
@@ -840,7 +840,7 @@
 					)
 				)
 			)
-			(property "Value" "1.91k"
+			(property "Value" "5k"
 				(at 6.35 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -862,7 +862,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "RC1206FR-071K91L"
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
 				(at 4.318 -10.414 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -895,7 +895,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "RC1206FR-071K91L"
+			(property "ki_keywords" "RT1206FRE072KL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -917,7 +917,7 @@
 					)
 				)
 			)
-			(symbol "RC1206FR-071K91L_1_1"
+			(symbol "RT1206FRE075KL_1_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 3.175 1.27)
@@ -1039,7 +1039,7 @@
 					)
 				)
 			)
-			(symbol "RC1206FR-071K91L_1_2"
+			(symbol "RT1206FRE075KL_1_2"
 				(polyline
 					(pts
 						(xy -1.27 8.255) (xy 1.27 9.525)
@@ -1286,12 +1286,6 @@
 		(uuid "144d0f03-165e-4644-a289-1c255eb58c34")
 	)
 	(junction
-		(at 115.57 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a1c9e5f-fd16-4cb8-ade6-0fd0eb9c7002")
-	)
-	(junction
 		(at 214.63 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1320,6 +1314,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48d7f057-5397-4add-9558-3e492833a357")
+	)
+	(junction
+		(at 227.33 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58d68926-a736-4191-b947-319bbe0001e8")
 	)
 	(junction
 		(at 115.57 49.53)
@@ -1352,16 +1352,16 @@
 		(uuid "af25f049-17a5-4f9e-ae5b-ff1481bf49d6")
 	)
 	(junction
-		(at 227.33 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af9c925b-2ce0-4ee7-b9f3-72ca2fa90edf")
-	)
-	(junction
 		(at 186.69 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6ddecde-c6fa-4c61-9933-43c7ed793639")
+	)
+	(junction
+		(at 115.57 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1d11ce1-2294-41c2-9a01-650c6f5665dd")
 	)
 	(junction
 		(at 251.46 78.74)
@@ -1377,7 +1377,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 74.93) (xy 137.16 74.93)
+			(xy 102.87 80.01) (xy 137.16 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1424,6 +1424,16 @@
 			(type default)
 		)
 		(uuid "21c65b03-8e15-40e7-8191-9d3f9602ee44")
+	)
+	(wire
+		(pts
+			(xy 102.87 67.31) (xy 102.87 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21dc5b28-000c-482b-b4ce-7923ad1170f2")
 	)
 	(wire
 		(pts
@@ -1527,7 +1537,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 90.17) (xy 137.16 74.93)
+			(xy 137.16 90.17) (xy 137.16 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1857,16 +1867,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 73.66) (xy 102.87 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2dba96f-7fb6-4e3e-82b0-4dbf363134c4")
-	)
-	(wire
-		(pts
 			(xy 124.46 104.14) (xy 124.46 110.49)
 		)
 		(stroke
@@ -1927,7 +1927,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 74.93) (xy 102.87 73.66)
+			(xy 102.87 80.01) (xy 102.87 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2212,254 +2212,6 @@
 			(project "AudioEqualizer"
 				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/f697aaec-c2f5-4c40-aae5-828b28e9a7e9"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Audio_Equalizer:RC1206FR-071K91L")
-		(at 227.33 48.26 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "29f54f0e-d13e-4c1c-a974-cbd0a35898d6")
-		(property "Reference" "R8"
-			(at 230.378 44.196 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1.91k"
-			(at 229.87 43.1799 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 235.204 43.688 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "RC1206FR-071K91L"
-			(at 237.744 43.942 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 227.33 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bf71ffbf-8def-4b80-a513-9c3a0442fcac")
-		)
-		(pin "2"
-			(uuid "5d4deddb-bcd8-41f6-a4ca-219939f4518d")
-		)
-		(instances
-			(project "AudioEqualizer"
-				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/f697aaec-c2f5-4c40-aae5-828b28e9a7e9"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Audio_Equalizer:RC1206FR-071K91L")
-		(at 60.96 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3053c680-4aca-4f16-9f8f-cffa09ca9887")
-		(property "Reference" "R4"
-			(at 67.31 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "1.91k"
-			(at 67.31 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 65.532 75.184 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "RC1206FR-071K91L"
-			(at 65.278 77.724 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "291c739d-aa80-488f-b9b7-62c3947f1ae1")
-		)
-		(pin "2"
-			(uuid "e4e8b4e8-d6fc-4b29-91a6-3a2805f13c45")
-		)
-		(instances
-			(project "AudioEqualizer"
-				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/f697aaec-c2f5-4c40-aae5-828b28e9a7e9"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Audio_Equalizer:RC1206FR-071K91L")
-		(at 187.96 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34c32673-35ab-4432-b38b-32e57c9ce2a4")
-		(property "Reference" "R6"
-			(at 194.31 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "1.91k"
-			(at 194.31 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 192.532 75.184 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "RC1206FR-071K91L"
-			(at 192.278 77.724 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8c9d5689-f485-4870-bdf1-12a85b62f8d2")
-		)
-		(pin "2"
-			(uuid "379cc151-2000-4119-8322-8c7f8dbd1965")
-		)
-		(instances
-			(project "AudioEqualizer"
-				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/f697aaec-c2f5-4c40-aae5-828b28e9a7e9"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2818,8 +2570,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Equalizer:RC1206FR-071K91L")
-		(at 115.57 48.26 90)
+		(lib_id "Audio_Equalizer:RT1206FRE075KL")
+		(at 200.66 67.31 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2827,32 +2579,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5b31f4b4-23a9-4850-8878-06fe5be98957")
-		(property "Reference" "R3"
-			(at 118.618 44.196 90)
+		(fields_autoplaced yes)
+		(uuid "593db0b1-fc6f-4e05-95f6-ab852d59e1bc")
+		(property "Reference" "R54"
+			(at 194.31 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "1.91k"
-			(at 118.11 43.1799 90)
-			(hide yes)
+		(property "Value" "5k"
+			(at 194.31 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 123.444 43.688 0)
+			(at 196.088 59.436 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2863,8 +2613,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "RC1206FR-071K91L"
-			(at 125.984 43.942 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 196.342 56.896 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2876,7 +2626,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 48.26 0)
+			(at 200.66 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2886,16 +2636,16 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "2095c0f3-13ba-40a4-8410-4af56fb11762")
-		)
 		(pin "2"
-			(uuid "559952f0-ac3b-46ec-930c-de5a01178a84")
+			(uuid "3a9a64f9-3ab3-4224-8306-48dcc364ce18")
+		)
+		(pin "1"
+			(uuid "ff8630fb-9988-4cf7-be8b-11439f95e0f8")
 		)
 		(instances
 			(project "AudioEqualizer"
 				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/f697aaec-c2f5-4c40-aae5-828b28e9a7e9"
-					(reference "R3")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -3064,6 +2814,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Audio_Equalizer:RT1206FRE075KL")
+		(at 60.96 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64abb588-96e6-441e-8cb6-11bf5f63da02")
+		(property "Reference" "R49"
+			(at 67.31 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "5k"
+			(at 67.31 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 65.532 75.184 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 65.278 77.724 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "27b75193-4efb-4475-b589-ea039d4b8db8")
+		)
+		(pin "1"
+			(uuid "965ee1b4-2308-43e6-aa60-c1666273a5d7")
+		)
+		(instances
+			(project "AudioEqualizer"
+				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/f697aaec-c2f5-4c40-aae5-828b28e9a7e9"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Audio_Equalizer:C0603C104K5RACTU")
 		(at 124.46 77.47 270)
 		(unit 1)
@@ -3142,6 +2974,88 @@
 			(project "AudioEqualizer"
 				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/f697aaec-c2f5-4c40-aae5-828b28e9a7e9"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Audio_Equalizer:RT1206FRE075KL")
+		(at 227.33 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "688b72e9-626b-421a-8119-fcf3f1936354")
+		(property "Reference" "R55"
+			(at 220.98 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "5k"
+			(at 220.98 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 222.758 65.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 223.012 63.246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "95f92376-13aa-44eb-8d49-5733d13bf94c")
+		)
+		(pin "1"
+			(uuid "ddf2c74a-c2ee-45d8-8364-20fc4a55cea9")
+		)
+		(instances
+			(project "AudioEqualizer"
+				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/f697aaec-c2f5-4c40-aae5-828b28e9a7e9"
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -3472,8 +3386,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Equalizer:RC1206FR-071K91L")
-		(at 172.72 67.31 0)
+		(lib_id "Audio_Equalizer:RT1206FRE075KL")
+		(at 185.42 67.31 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3482,8 +3396,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c0ed1024-dd9b-4a49-9783-2e6512a94fa9")
-		(property "Reference" "R5"
+		(uuid "b55d050c-f57a-4155-961a-d0fd30ee707e")
+		(property "Reference" "R53"
 			(at 179.07 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3493,7 +3407,7 @@
 				)
 			)
 		)
-		(property "Value" "1.91k"
+		(property "Value" "5k"
 			(at 179.07 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3504,7 +3418,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 177.292 75.184 0)
+			(at 180.848 59.436 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3515,8 +3429,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "RC1206FR-071K91L"
-			(at 177.038 77.724 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 181.102 56.896 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3528,7 +3442,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 67.31 0)
+			(at 185.42 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3538,23 +3452,107 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "bfa48839-f396-4565-8bdc-4b6da27eda9a")
-		)
 		(pin "2"
-			(uuid "6bad0771-17d5-425a-a95a-4f1e5b190fc3")
+			(uuid "1dad66de-be4d-49ad-83f2-45612429f484")
+		)
+		(pin "1"
+			(uuid "de756d2a-80ab-4f8c-ac3a-7d39d7a7fd19")
 		)
 		(instances
 			(project "AudioEqualizer"
 				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/f697aaec-c2f5-4c40-aae5-828b28e9a7e9"
-					(reference "R5")
+					(reference "R53")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Audio_Equalizer:RC1206FR-071K91L")
+		(lib_id "Audio_Equalizer:RT1206FRE075KL")
+		(at 227.33 35.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c721dffe-ef85-4c15-b41c-01e10ba3b0ec")
+		(property "Reference" "R56"
+			(at 229.87 40.6399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k"
+			(at 229.87 43.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 219.456 40.132 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 216.916 39.878 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a9c94782-8f85-4ed0-9f5f-b1cf169f5f10")
+		)
+		(pin "1"
+			(uuid "d251ec95-9fdd-4f71-8447-e2943a136d6c")
+		)
+		(instances
+			(project "AudioEqualizer"
+				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/f697aaec-c2f5-4c40-aae5-828b28e9a7e9"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Audio_Equalizer:RT1206FRE075KL")
 		(at 102.87 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -3564,8 +3562,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ca417fc4-7f95-4f81-acf5-95081a8b0db9")
-		(property "Reference" "R2"
+		(uuid "cef6ff4a-e408-4238-a938-8d9f546cbf82")
+		(property "Reference" "R51"
 			(at 109.22 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3575,7 +3573,7 @@
 				)
 			)
 		)
-		(property "Value" "1.91k"
+		(property "Value" "5k"
 			(at 109.22 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3597,7 +3595,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "RC1206FR-071K91L"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
 			(at 107.188 84.074 0)
 			(hide yes)
 			(show_name no)
@@ -3620,105 +3618,23 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "cfaa6226-1c80-4bdf-b996-55911ac8ee3b")
-		)
 		(pin "2"
-			(uuid "4c03ee2c-5a59-4c11-bc7b-6e24cd39e520")
+			(uuid "7790eb08-d4d3-4596-8e9b-e578fa18bc46")
+		)
+		(pin "1"
+			(uuid "92f6ca47-6cd4-40ff-b107-3d7667d02130")
 		)
 		(instances
 			(project "AudioEqualizer"
 				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/f697aaec-c2f5-4c40-aae5-828b28e9a7e9"
-					(reference "R2")
+					(reference "R51")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Audio_Equalizer:RC1206FR-071K91L")
-		(at 214.63 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca9adab1-92cc-4003-897b-503e6c2f35a8")
-		(property "Reference" "R7"
-			(at 220.98 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "1.91k"
-			(at 220.98 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 219.202 81.534 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "RC1206FR-071K91L"
-			(at 218.948 84.074 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 214.63 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3deb23d5-019a-448e-bcbb-578003dd4efe")
-		)
-		(pin "2"
-			(uuid "78111465-7bda-4201-9eee-0d7a316149a3")
-		)
-		(instances
-			(project "AudioEqualizer"
-				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/f697aaec-c2f5-4c40-aae5-828b28e9a7e9"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Audio_Equalizer:RC1206FR-071K91L")
+		(lib_id "Audio_Equalizer:RT1206FRE075KL")
 		(at 76.2 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -3728,8 +3644,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d47128fd-8f1e-4a3a-8228-a665849e6b52")
-		(property "Reference" "R1"
+		(uuid "d652f788-c2c6-46fe-a4c0-3d5d4e94b373")
+		(property "Reference" "R50"
 			(at 82.55 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3739,7 +3655,7 @@
 				)
 			)
 		)
-		(property "Value" "1.91k"
+		(property "Value" "5k"
 			(at 82.55 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3761,7 +3677,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "RC1206FR-071K91L"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
 			(at 80.518 77.724 0)
 			(hide yes)
 			(show_name no)
@@ -3784,16 +3700,100 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "b6e691f4-cc9b-4abd-b4ba-4418334e92ce")
-		)
 		(pin "2"
-			(uuid "f5dc40db-8e19-4c82-bde3-9090d02f7188")
+			(uuid "1ed6b6f8-9a55-4cbe-a046-6db127624c99")
+		)
+		(pin "1"
+			(uuid "2be4bb09-8585-4425-bead-c3d4d5fc35aa")
 		)
 		(instances
 			(project "AudioEqualizer"
 				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/f697aaec-c2f5-4c40-aae5-828b28e9a7e9"
-					(reference "R1")
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Audio_Equalizer:RT1206FRE075KL")
+		(at 115.57 35.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8289784-792c-4bf2-9238-0a8be571d7f7")
+		(property "Reference" "R52"
+			(at 118.11 40.6399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k"
+			(at 118.11 43.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 107.696 40.132 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 105.156 39.878 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "976a1856-2df0-478b-a8d6-30dd6d196252")
+		)
+		(pin "1"
+			(uuid "2c95907a-0928-4bd4-9fd7-72911810b7a9")
+		)
+		(instances
+			(project "AudioEqualizer"
+				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/f697aaec-c2f5-4c40-aae5-828b28e9a7e9"
+					(reference "R52")
 					(unit 1)
 				)
 			)

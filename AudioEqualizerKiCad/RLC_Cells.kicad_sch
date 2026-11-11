@@ -5,48 +5,39 @@
 	(uuid "8ad9ed03-aec7-4796-b915-356dc707e969")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Audio_Equalizer:5900-104-RC"
+		(symbol "Audio_Equalizer:AISR-01-104J"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "L"
-				(at 16.51 7.62 0)
+				(at -10.16 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "100m"
-				(at 16.51 5.08 0)
+				(at -10.16 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "INDAD6888W80L2286D1151"
-				(at 16.51 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "http://www.bourns.com/docs/Product-Datasheets/5900_series.pdf"
-				(at 16.51 -194.92 0)
+			(property "Footprint" "SamacSys_Parts:IND_AISR-01-104J"
+				(at 3.048 -17.526 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -54,11 +45,119 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 				)
 			)
-			(property "Description" "High Current RF Choke Bobbin Core 100mH 10% 1KHz Ferrite 70mA 82Ohm DCR AXL"
-				(at 2.286 -8.636 0)
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/AISR-01-104J_Abracon.pdf"
+				(at 1.27 -14.224 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "100 mH Shielded Drum Core, Wirewound Inductor 9 mA 82Ohm Max Radial, Vertical Cylinder"
+				(at 0.254 -4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/AISR-01-104J_Abracon.pdf"
+				(at 0 -7.112 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Abracon"
+				(at 0.254 -19.812 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "10.5 mm"
+				(at 0.254 -26.416 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "AISR-01-104J"
+				(at -0.762 -24.384 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "01-15-21"
+				(at -1.016 -22.098 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/AISR-01-104J/Abracon/view-part/"
+				(at 0.762 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at -1.524 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "ki_keywords" "AISR-01-104J"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -68,71 +167,11 @@
 					)
 				)
 			)
-			(property "Height" ""
-				(at 16.51 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "AISR-01-104J_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -7.62 0)
 					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "542-5900-104-RC"
-				(at 16.51 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/5900-104-RC?qs=BAEg9VYngsXk6N%252BT0yvXoA%3D%3D"
-				(at 16.51 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Bourns"
-				(at 16.51 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "5900-104-RC"
-				(at 16.51 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "5900-104-RC_1_1"
-				(arc
-					(start 5.08 -1.27)
-					(mid 6.35 -0.051)
-					(end 7.62 -1.27)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -142,9 +181,9 @@
 					)
 				)
 				(arc
-					(start 7.62 -1.27)
-					(mid 8.89 -0.051)
-					(end 10.16 -1.27)
+					(start -5.08 0)
+					(mid -3.81 1.2645)
+					(end -2.54 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -154,9 +193,9 @@
 					)
 				)
 				(arc
-					(start 10.16 -1.27)
-					(mid 11.43 -0.051)
-					(end 12.7 -1.27)
+					(start -2.54 0)
+					(mid -1.27 1.2645)
+					(end 0 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -166,9 +205,33 @@
 					)
 				)
 				(arc
-					(start 12.7 -1.27)
-					(mid 13.97 -0.051)
-					(end 15.24 -1.27)
+					(start 0 0)
+					(mid 1.27 1.2645)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.2645)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 0)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -178,513 +241,37 @@
 					)
 				)
 				(pin passive line
-					(at 0 -1.27 0)
-					(length 5.08)
-					(name "1"
+					(at -7.62 0 0)
+					(length 0)
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 20.32 -1.27 180)
-					(length 5.08)
-					(name "2"
+					(at 7.62 0 180)
+					(length 0)
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Audio_Equalizer:5900-223-RC"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at 16.51 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "22m"
-				(at 16.51 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "INDAD6888W80L2286D1151"
-				(at 16.51 -96.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.in/datasheet/2/54/5900_series-777308.pdf"
-				(at 16.51 -196.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "Power Inductors - Leaded 22mH 10%"
-				(at 11.176 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" ""
-				(at 16.51 -396.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Bourns"
-				(at 16.51 -496.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "5900-223-RC"
-				(at 16.51 -596.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 16.51 -696.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 16.51 -796.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Part Number" "5900-223-RC"
-				(at 16.51 -896.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/5900-223-rc/bourns"
-				(at 16.51 -996.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "5900-223-RC_1_1"
-				(arc
-					(start 5.08 0)
-					(mid 6.35 1.219)
-					(end 7.62 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.62 0)
-					(mid 8.89 1.219)
-					(end 10.16 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 10.16 0)
-					(mid 11.43 1.219)
-					(end 12.7 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 12.7 0)
-					(mid 13.97 1.219)
-					(end 15.24 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Audio_Equalizer:5900-472-RC"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at 16.51 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "4.7m"
-				(at 16.51 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "INDAD6888W80L2286D1151"
-				(at 16.51 -96.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.in/datasheet/2/54/5900_series-777308.pdf"
-				(at 16.51 -196.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "Power Inductors - Leaded 4.7mH 10%"
-				(at 9.906 -3.048 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" ""
-				(at 16.51 -396.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Bourns"
-				(at 16.51 -496.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "5900-223-RC"
-				(at 16.51 -596.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 16.51 -696.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 16.51 -796.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Part Number" "5900-223-RC"
-				(at 16.51 -896.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/5900-223-rc/bourns"
-				(at 16.51 -996.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "5900-472-RC_1_1"
-				(arc
-					(start 5.08 0)
-					(mid 6.35 1.219)
-					(end 7.62 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.62 0)
-					(mid 8.89 1.219)
-					(end 10.16 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 10.16 0)
-					(mid 11.43 1.219)
-					(end 12.7 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 12.7 0)
-					(mid 13.97 1.219)
-					(end 15.24 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -963,51 +550,39 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Audio_Equalizer:ECQ-E2685JF"
+		(symbol "Audio_Equalizer:DRC-0608-223J-UL"
 			(pin_names
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 8.89 6.35 0)
+			(property "Reference" "L"
+				(at -3.81 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "6.8u"
-				(at 8.89 3.81 0)
+			(property "Value" "22m"
+				(at -3.81 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ECQE2685JF"
-				(at 8.89 -96.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDI0000/ABD0000C179.pdf"
-				(at 8.89 -196.19 0)
+			(property "Footprint" "SamacSys_Parts:IND_DRC-0608-223J-UL"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1015,10 +590,118 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 				)
 			)
-			(property "Description" "ECQ-E2685JF"
+			(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/DRC-0608_DRC-0707_DRC-0807+Series+Datasheet.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "Radial Coil Inductors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DATASHEET_URL" "https://snapeda.s3.amazonaws.com/datasheets/DRC-0608_DRC-0707_DRC-0807+Series+Datasheet.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Signal Transformer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "11mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "DRC-0608-223J-UL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "Mar 08 2023"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/DRC-0608-223J-UL/Signal+Transformer/view-part/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "ki_keywords" "DRC-0608-223J-UL:IND_DRC-0608-223J-UL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1029,95 +712,59 @@
 					)
 				)
 			)
-			(property "Height" "28.9"
-				(at 8.89 -396.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Panasonic"
-				(at 8.89 -496.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ECQ-E2685JF"
-				(at 8.89 -596.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "667-ECQ-E2685JF"
-				(at 8.89 -696.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ECQ-E2685JF/?qs=9ouE0kzBZ2pLv2exP6t%252Bbg%3D%3D"
-				(at 8.89 -796.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 8.89 -896.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 8.89 -996.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "ECQ-E2685JF_1_1"
+			(symbol "DRC-0608-223J-UL_0_0"
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 5.588 0)
+						(xy -5.08 0) (xy -7.62 0)
 					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 0)
+					(mid -3.81 1.2645)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.27 1.2645)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.27 1.2645)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.2645)
+					(end 5.08 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1128,31 +775,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.588 2.54) (xy 5.588 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 2.54) (xy 7.112 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 0) (xy 7.62 0)
+						(xy 5.08 0) (xy 7.62 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1163,37 +786,311 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
+					(at -7.62 0 0)
+					(length 0)
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "2"
+					(at 7.62 0 180)
+					(length 0)
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Audio_Equalizer:DRC-0608-472J-UL"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -3.81 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "4.7m"
+				(at -3.81 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SamacSys_Parts:IND_DRC-0608-472J-UL"
+				(at -5.08 -7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/DRC-0608_DRC-0707_DRC-0807+Series+Datasheet.pdf"
+				(at -1.016 -11.176 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "Radial Coil Inductors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DATASHEET_URL" "https://snapeda.s3.amazonaws.com/datasheets/DRC-0608_DRC-0707_DRC-0807+Series+Datasheet.pdf"
+				(at -1.016 -11.176 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Signal Transformer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "11mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "DRC-0608-472J-UL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "Mar 08 2023"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/DRC-0608-472J-UL/Signal+Transformer/view-part/"
+				(at -1.016 -11.176 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at -2.286 -10.414 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "ki_keywords" "DRC-0608-472J-UL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DRC-0608-472J-UL_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 0)
+					(mid -3.81 1.2645)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.27 1.2645)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.27 1.2645)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.2645)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -4708,7 +4605,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Audio_Equalizer:RT1206FRE072KL"
+		(symbol "Audio_Equalizer:RT1206FRE072K05L"
 			(body_styles demorgan)
 			(pin_names
 				(offset 0.254)
@@ -4728,7 +4625,7 @@
 					)
 				)
 			)
-			(property "Value" "2k"
+			(property "Value" "2.05k"
 				(at 6.35 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4783,7 +4680,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "RT1206FRE072KL"
+			(property "ki_keywords" "RT1206FRE072K05L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4805,7 +4702,7 @@
 					)
 				)
 			)
-			(symbol "RT1206FRE072KL_1_1"
+			(symbol "RT1206FRE072K05L_1_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 3.175 1.27)
@@ -4927,7 +4824,7 @@
 					)
 				)
 			)
-			(symbol "RT1206FRE072KL_1_2"
+			(symbol "RT1206FRE072K05L_1_2"
 				(polyline
 					(pts
 						(xy -1.27 8.255) (xy 1.27 9.525)
@@ -5394,6 +5291,441 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RK09L122002L_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "VR1"
+				(at 1.27 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/RK09L122002L/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RK09L122002L_1_0_1"
+				(rectangle
+					(start -7.62 -4.064)
+					(end -2.54 -6.096)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -5.08 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -5.08 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -4.572 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.937) (xy -5.588 -2.794) (xy -4.572 -2.794) (xy -5.08 -3.937)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 -2.032) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -2.032) (xy -2.794 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -2.032) (xy -1.778 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -2.032) (xy 2.286 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -2.032) (xy 3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.032) (xy 4.318 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.826 -2.032) (xy 5.334 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -4.064)
+					(end 10.16 -6.096)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -2.032) (xy 6.35 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.858 -2.032) (xy 7.366 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -3.937) (xy 7.112 -2.794) (xy 8.128 -2.794) (xy 7.62 -3.937)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 -2.032) (xy 8.128 -2.032) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RK09L122002L_1_1_1"
+				(pin passive line
+					(at -8.89 -5.08 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -5.08 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -5.08 0)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 270)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -5.08 180)
+					(length 1.27)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -5523,12 +5855,6 @@
 		(uuid "28f8b9e9-39c4-4522-8c94-112f94d605c0")
 	)
 	(junction
-		(at 158.75 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "362ce174-0875-4bb6-aa67-511737e569a7")
-	)
-	(junction
 		(at 74.93 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5631,10 +5957,22 @@
 		(uuid "95e9409a-ae50-4c8b-9354-3179810d3ef7")
 	)
 	(junction
+		(at 130.81 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96737e30-5366-4e5a-9cd9-4ea7249fd487")
+	)
+	(junction
 		(at 39.37 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7e9557e-81ee-4b2d-88cc-da3042685494")
+	)
+	(junction
+		(at 158.75 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdd59e75-541f-408b-94cd-2a7af0859600")
 	)
 	(junction
 		(at 223.52 78.74)
@@ -5647,6 +5985,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c74d0126-2ab3-403e-94bd-36c9dbfbdef7")
+	)
+	(junction
+		(at 233.68 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1a190cc-d6f7-4728-a125-6539e6b7b77a")
 	)
 	(junction
 		(at 130.81 39.37)
@@ -5667,12 +6011,6 @@
 		(uuid "da088fa6-e008-4841-a653-d2065c5cd6a3")
 	)
 	(junction
-		(at 233.68 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e44cf5da-3550-4675-ab6d-d746ff7c7bc1")
-	)
-	(junction
 		(at 106.68 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5683,12 +6021,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa77fb8f-326e-4059-be75-a0a83565491a")
-	)
-	(junction
-		(at 130.81 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "feac51b5-a371-4a86-b5df-f4f1f799edb5")
 	)
 	(wire
 		(pts
@@ -6792,7 +7124,7 @@
 	)
 	(hierarchical_label "SummingL"
 		(shape output)
-		(at 118.11 68.58 0)
+		(at 118.11 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6825,7 +7157,7 @@
 	)
 	(hierarchical_label "SummingR"
 		(shape output)
-		(at 233.68 124.46 270)
+		(at 233.68 119.38 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6902,7 +7234,7 @@
 	)
 	(hierarchical_label "SummingR"
 		(shape output)
-		(at 115.57 143.51 180)
+		(at 120.65 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6913,7 +7245,7 @@
 	)
 	(hierarchical_label "SummingL"
 		(shape output)
-		(at 128.27 138.43 90)
+		(at 123.19 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7001,7 +7333,7 @@
 	)
 	(hierarchical_label "SummingR"
 		(shape output)
-		(at 138.43 62.23 180)
+		(at 143.51 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7177,7 +7509,7 @@
 	)
 	(hierarchical_label "SummingL"
 		(shape output)
-		(at 185.42 119.38 180)
+		(at 190.5 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7349,6 +7681,174 @@
 		)
 	)
 	(symbol
+		(lib_id "Audio_Equalizer:RT1206FRE072K05L")
+		(at 54.61 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "084bb47a-a9d9-4849-b762-e72fca44b1a5")
+		(property "Reference" "R2"
+			(at 57.15 162.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.05k"
+			(at 57.15 165.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 62.484 165.608 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 65.024 165.862 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdef9852-3dd3-4601-a966-bedfc77c3f81")
+		)
+		(pin "2"
+			(uuid "18f4a8a9-5fa0-4fc9-b7dc-767e8c418f26")
+		)
+		(instances
+			(project "AudioEqualizer"
+				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Audio_Equalizer:RT1206FRE072K05L")
+		(at 46.99 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a006e09-4e15-4637-a984-077f70ced5c5")
+		(property "Reference" "R1"
+			(at 49.53 162.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.05k"
+			(at 49.53 165.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 54.864 165.608 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 57.404 165.862 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54f16147-5f89-42f9-8c7f-302bdbb6398b")
+		)
+		(pin "2"
+			(uuid "faae20d2-b633-47c6-ab83-abb449c3a5d4")
+		)
+		(instances
+			(project "AudioEqualizer"
+				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Audio_Equalizer:R82EC2680AA60J")
 		(at 195.58 100.33 0)
 		(unit 1)
@@ -7425,171 +7925,6 @@
 			(project "AudioEqualizer"
 				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Audio_Equalizer:RT1206FRE072KL")
-		(at 54.61 170.18 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1342d56a-a01f-4b47-959b-a57621e249d9")
-		(property "Reference" "R10"
-			(at 52.578 162.814 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2k"
-			(at 53.848 165.862 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 62.484 165.608 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
-			(at 65.024 165.862 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0314d5b0-3aab-47ab-9e98-aafae0b0d45c")
-		)
-		(pin "2"
-			(uuid "c64a6c21-06aa-42d0-96a3-c1e4c73b3fe5")
-		)
-		(instances
-			(project "AudioEqualizer"
-				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Audio_Equalizer:RC1206FR-07150RL")
-		(at 118.11 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14d6e4b3-2cb4-451c-b447-9abd4ff3d428")
-		(property "Reference" "R31"
-			(at 124.46 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "150"
-			(at 124.46 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 122.682 44.704 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "RC1206FR-071K91L"
-			(at 122.428 47.244 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b8016727-beeb-40f3-ac2f-0f27e22a10bb")
-		)
-		(pin "2"
-			(uuid "ca55a191-47c7-4400-99d0-35607a5058bc")
-		)
-		(instances
-			(project "AudioEqualizer"
-				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
-					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -7674,6 +8009,175 @@
 			(project "AudioEqualizer"
 				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Audio_Equalizer:DRC-0608-472J-UL")
+		(at 233.68 111.76 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1908ad8a-97f7-433c-8418-5ebb85291e9c")
+		(property "Reference" "L8"
+			(at 236.22 110.4899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7m"
+			(at 236.22 113.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:IND_DRC-0608-472J-UL"
+			(at 226.314 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/DRC-0608_DRC-0707_DRC-0807+Series+Datasheet.pdf"
+			(at 222.504 110.744 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "Radial Coil Inductors"
+			(at 233.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://snapeda.s3.amazonaws.com/datasheets/DRC-0608_DRC-0707_DRC-0807+Series+Datasheet.pdf"
+			(at 222.504 110.744 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Signal Transformer"
+			(at 233.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "11mm"
+			(at 233.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "DRC-0608-472J-UL"
+			(at 233.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "Mar 08 2023"
+			(at 233.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/DRC-0608-472J-UL/Signal+Transformer/view-part/"
+			(at 222.504 110.744 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 223.266 109.474 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "e8e71b08-3836-49a6-b2e6-3e1d47d46fda")
+		)
+		(pin "2"
+			(uuid "b1348639-d3d8-450b-8de3-48e74598c21f")
+		)
+		(instances
+			(project "AudioEqualizer"
+				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
+					(reference "L8")
 					(unit 1)
 				)
 			)
@@ -8609,7 +9113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:Potentiometer_Alps_RK09L_Double_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
 			(at 115.57 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -8664,6 +9168,90 @@
 			(project "AudioEqualizer"
 				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
 					(reference "VR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Audio_Equalizer:RT1206FRE072K05L")
+		(at 59.69 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b241e1c-0e54-4713-ac86-0b2a6a9ef93a")
+		(property "Reference" "R3"
+			(at 62.23 162.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.05k"
+			(at 62.23 165.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 67.564 165.608 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 70.104 165.862 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6630609c-996d-4af6-8bdb-4cae9c48d2b4")
+		)
+		(pin "2"
+			(uuid "b374db70-0b93-46e7-beb9-fbf6369e18c6")
+		)
+		(instances
+			(project "AudioEqualizer"
+				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8885,7 +9473,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:Potentiometer_Alps_RK09L_Double_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
 			(at 125.73 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -9290,149 +9878,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Equalizer:5900-104-RC")
-		(at 107.95 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "647a6c9b-475d-40c6-98a2-23683bb71b50")
-		(property "Reference" "L3"
-			(at 114.554 135.636 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100m"
-			(at 115.062 140.208 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "INDAD6888W80L2286D1151"
-			(at 124.46 232.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://www.bourns.com/docs/Product-Datasheets/5900_series.pdf"
-			(at 124.46 332.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "High Current RF Choke Bobbin Core 100mH 10% 1KHz Ferrite 70mA 82Ohm DCR AXL"
-			(at 110.236 145.796 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 124.46 532.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "542-5900-104-RC"
-			(at 124.46 632.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/5900-104-RC?qs=BAEg9VYngsXk6N%252BT0yvXoA%3D%3D"
-			(at 124.46 732.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 124.46 832.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "5900-104-RC"
-			(at 124.46 932.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "ebd3afff-ff0c-4eb3-8c57-af0e4acab624")
-		)
-		(pin "2"
-			(uuid "370a5273-34ca-4620-a8db-9e88147fbbd0")
-		)
-		(instances
-			(project "AudioEqualizer"
-				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
-					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Audio_Equalizer:ECQ-E2685JF")
-		(at 44.45 119.38 0)
+		(lib_id "Audio_Equalizer:RC1206FR-07100RL")
+		(at 130.81 36.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9441,29 +9888,53 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6879c2af-f987-44cd-986d-b95c4c801c8d")
-		(property "Reference" "C1"
-			(at 50.8 111.76 0)
+		(uuid "67594c99-190f-4d00-9f15-0796c5ab0148")
+		(property "Reference" "R31"
+			(at 124.46 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 124.46 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 126.238 28.956 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Value" "6.8u"
-			(at 50.8 114.3 0)
+		(property "Datasheet" "RC1206FR-071K91L"
+			(at 126.492 26.416 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Footprint" "ECQE2685JF"
-			(at 53.34 215.57 0)
+		(property "Description" ""
+			(at 130.81 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9471,126 +9942,18 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDI0000/ABD0000C179.pdf"
-			(at 53.34 315.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "ECQ-E2685JF"
-			(at 44.45 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "28.9"
-			(at 53.34 515.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 53.34 615.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ECQ-E2685JF"
-			(at 53.34 715.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "667-ECQ-E2685JF"
-			(at 53.34 815.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ECQ-E2685JF/?qs=9ouE0kzBZ2pLv2exP6t%252Bbg%3D%3D"
-			(at 53.34 915.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 53.34 1015.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 53.34 1115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 			)
 		)
 		(pin "1"
-			(uuid "e4bf0b96-1ef5-4318-93f3-e6f0db529f96")
+			(uuid "b3d5d6ab-6a13-4b60-95fa-9576c158c9a8")
 		)
 		(pin "2"
-			(uuid "4407b016-e5b2-4fab-973d-f0b175e09659")
+			(uuid "5861ed6b-f0d7-4419-9a01-ef9077e9ad33")
 		)
 		(instances
 			(project "AudioEqualizer"
 				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
-					(reference "C1")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -9926,6 +10289,7 @@
 		)
 	)
 	(symbol
+		(lib_name "RK09L122002L_1")
 		(lib_id "Audio_Equalizer:RK09L122002L")
 		(at 55.88 152.4 0)
 		(unit 1)
@@ -9956,7 +10320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:Potentiometer_Alps_RK09L_Double_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
 			(at 55.88 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -10675,172 +11039,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Equalizer:ECQ-E2685JF")
-		(at 50.8 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "834ef0c9-0668-47e2-b77c-4667f85c245d")
-		(property "Reference" "C4"
-			(at 57.15 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "6.8u"
-			(at 57.15 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ECQE2685JF"
-			(at 59.69 169.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDI0000/ABD0000C179.pdf"
-			(at 59.69 269.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "ECQ-E2685JF"
-			(at 50.8 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "28.9"
-			(at 59.69 469.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 59.69 569.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ECQ-E2685JF"
-			(at 59.69 669.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "667-ECQ-E2685JF"
-			(at 59.69 769.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ECQ-E2685JF/?qs=9ouE0kzBZ2pLv2exP6t%252Bbg%3D%3D"
-			(at 59.69 869.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 59.69 969.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 59.69 1069.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "66741f20-55e9-469d-b773-a4e90a804357")
-		)
-		(pin "2"
-			(uuid "1ea687f3-2f59-45c9-9394-ae103d8eccf9")
-		)
-		(instances
-			(project "AudioEqualizer"
-				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Audio_Equalizer:RT1206BRD078K06L")
 		(at 127 91.44 90)
 		(unit 1)
@@ -11074,174 +11272,6 @@
 			(project "AudioEqualizer"
 				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Audio_Equalizer:5900-223-RC")
-		(at 118.11 48.26 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9110d931-5152-4477-84ab-c80968dcdb34")
-		(property "Reference" "L1"
-			(at 120.65 57.1499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22m"
-			(at 120.65 59.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "INDAD6888W80L2286D1151"
-			(at 21.92 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/54/5900_series-777308.pdf"
-			(at -78.08 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Power Inductors - Leaded 22mH 10%"
-			(at 114.3 59.436 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at -278.08 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at -378.08 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "5900-223-RC"
-			(at -478.08 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -578.08 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -678.08 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "5900-223-RC"
-			(at -778.08 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/5900-223-rc/bourns"
-			(at -878.08 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "583f6733-508d-4bcd-9e18-4bdebecf1973")
-		)
-		(pin "2"
-			(uuid "b7037e86-c736-4b28-8f30-de77b13b7067")
-		)
-		(instances
-			(project "AudioEqualizer"
-				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
-					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -11676,8 +11706,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Equalizer:RC1206FR-07150RL")
-		(at 158.75 52.07 90)
+		(lib_id "Audio_Equalizer:RC1206FR-07100RL")
+		(at 158.75 39.37 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11686,7 +11716,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "972bd1f2-5a02-4029-9856-5d6b0a18c3d1")
+		(uuid "987d70bc-1dba-4699-86cf-32a630172cc5")
 		(property "Reference" "R32"
 			(at 161.29 44.4499 90)
 			(show_name no)
@@ -11695,10 +11725,10 @@
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "100"
 			(at 161.29 46.9899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11706,11 +11736,11 @@
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 166.624 47.498 0)
+			(at 150.876 43.942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11722,7 +11752,7 @@
 			)
 		)
 		(property "Datasheet" "RC1206FR-071K91L"
-			(at 169.164 47.752 0)
+			(at 148.336 43.688 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11734,7 +11764,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 52.07 0)
+			(at 158.75 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11745,10 +11775,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9877823f-0ccf-4545-87c9-50f33722b40b")
+			(uuid "af6d71d3-0554-4e4b-9d20-9113758b1c22")
 		)
 		(pin "2"
-			(uuid "0baabc01-f4e2-4aad-bf9a-428ffd2b96c3")
+			(uuid "1b1c3009-1b40-4634-ae21-fe9f3b011021")
 		)
 		(instances
 			(project "AudioEqualizer"
@@ -11760,8 +11790,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Equalizer:RT1206FRE072KL")
-		(at 46.99 170.18 90)
+		(lib_id "Audio_Equalizer:DRC-0608-223J-UL")
+		(at 118.11 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11769,55 +11799,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a3b4038c-cab8-4348-aff1-bed06e0b60d3")
-		(property "Reference" "R9"
-			(at 45.466 162.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2k"
-			(at 45.466 165.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 54.864 165.608 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "a81a3daf-f30f-46f7-8369-325c3e18e4b1")
+		(property "Reference" "L1"
+			(at 120.65 54.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify left)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
-			(at 57.404 165.862 0)
-			(hide yes)
+		(property "Value" "22m"
+			(at 120.65 57.1499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify left)
 			)
 		)
-		(property "Description" ""
-			(at 46.99 170.18 0)
+		(property "Footprint" "SamacSys_Parts:IND_DRC-0608-223J-UL"
+			(at 118.11 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11825,18 +11832,294 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(pin "1"
-			(uuid "c2f76db9-09f0-4bbc-a4ad-4a9fc94287d1")
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/DRC-0608_DRC-0707_DRC-0807+Series+Datasheet.pdf"
+			(at 118.11 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "Radial Coil Inductors"
+			(at 118.11 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://snapeda.s3.amazonaws.com/datasheets/DRC-0608_DRC-0707_DRC-0807+Series+Datasheet.pdf"
+			(at 118.11 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Signal Transformer"
+			(at 118.11 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "11mm"
+			(at 118.11 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "DRC-0608-223J-UL"
+			(at 118.11 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "Mar 08 2023"
+			(at 118.11 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/DRC-0608-223J-UL/Signal+Transformer/view-part/"
+			(at 118.11 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 118.11 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
 		(pin "2"
-			(uuid "3465ca9b-10a6-4427-9cd9-4155b6750ef0")
+			(uuid "79d7de5d-1a40-479f-9223-1e1a1556248e")
+		)
+		(pin "1"
+			(uuid "3f8fccc7-9c2c-4b25-814f-368e769528b3")
 		)
 		(instances
 			(project "AudioEqualizer"
 				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
-					(reference "R9")
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Audio_Equalizer:DRC-0608-472J-UL")
+		(at 198.12 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab540007-3e39-420d-abac-e42050dd54d6")
+		(property "Reference" "L7"
+			(at 198.12 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7m"
+			(at 198.12 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:IND_DRC-0608-472J-UL"
+			(at 193.04 126.746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/DRC-0608_DRC-0707_DRC-0807+Series+Datasheet.pdf"
+			(at 197.104 130.556 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "Radial Coil Inductors"
+			(at 198.12 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://snapeda.s3.amazonaws.com/datasheets/DRC-0608_DRC-0707_DRC-0807+Series+Datasheet.pdf"
+			(at 197.104 130.556 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Signal Transformer"
+			(at 198.12 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "11mm"
+			(at 198.12 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "DRC-0608-472J-UL"
+			(at 198.12 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "Mar 08 2023"
+			(at 198.12 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/DRC-0608-472J-UL/Signal+Transformer/view-part/"
+			(at 197.104 130.556 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 195.834 129.794 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "2e8e194d-5dbb-4fba-b9cc-a07952db9933")
+		)
+		(pin "2"
+			(uuid "2207c824-60f5-499f-af92-7efe52541807")
+		)
+		(instances
+			(project "AudioEqualizer"
+				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
+					(reference "L7")
 					(unit 1)
 				)
 			)
@@ -11920,6 +12203,171 @@
 			(project "AudioEqualizer"
 				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Audio_Equalizer:R82DC4100DQ60J")
+		(at 63.5 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7db2155-16c8-4423-ba3d-5424c9cc98d9")
+		(property "Reference" "C45"
+			(at 55.372 68.326 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 57.15 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "R82DC4100DQ60J"
+			(at 54.61 -22.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_F3101_R82"
+			(at 54.61 -122.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "R82, Film, Metallized Polyester Stacked, Automotive Grade, 1 uF, 5%, 40 VAC, 63 VDC, 105C, -55C, 85C, 0.8 % , 5 GOhms, 160 V/us, 7000 pH, 0.53 g, 7.2mm, 10mm, 5mm, Lead Spacing = 5mm, 1700"
+			(at 64.516 68.834 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "10.1"
+			(at 54.61 -322.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 54.61 -422.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "R82DC4100DQ60J"
+			(at 54.61 -522.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "80-R82DC4100DQ60J"
+			(at 54.61 -622.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/R82DC4100DQ60J?qs=06HLYMEcjuVd2Wr1NUYuhw%3D%3D"
+			(at 54.61 -722.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "R82DC4100DQ60J"
+			(at 54.61 -822.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/r82dc4100dq60j/kemet-corporation?region=nac"
+			(at 54.61 -922.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "22148fbb-aa93-4da9-9363-a37180069a2e")
+		)
+		(pin "1"
+			(uuid "099566a7-c254-4e0f-a2c4-ddc992bf96b1")
+		)
+		(instances
+			(project "AudioEqualizer"
+				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -12093,8 +12541,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Equalizer:RT1206FRE072KL")
-		(at 67.31 170.18 90)
+		(lib_id "Audio_Equalizer:AISR-01-104J")
+		(at 128.27 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12102,56 +12550,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ca7c3d78-a9ef-49b8-82cf-c82b08cd44ac")
-		(property "Reference" "R12"
-			(at 65.786 162.814 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2k"
-			(at 66.294 165.608 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 75.184 165.608 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
-			(at 77.724 165.862 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 170.18 0)
-			(hide yes)
+		(uuid "cd71f4aa-6e92-4def-8871-22e33bc0c5a7")
+		(property "Reference" "L4"
+			(at 127.508 140.716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12160,16 +12561,146 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "5e58ee74-3804-48f0-98b3-f7a725e7fc3f")
+		(property "Value" "100m"
+			(at 127.762 145.542 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:IND_AISR-01-104J"
+			(at 131.318 161.036 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/AISR-01-104J_Abracon.pdf"
+			(at 129.54 157.734 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "100 mH Shielded Drum Core, Wirewound Inductor 9 mA 82Ohm Max Radial, Vertical Cylinder"
+			(at 128.524 148.336 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/AISR-01-104J_Abracon.pdf"
+			(at 128.27 150.622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Abracon"
+			(at 128.524 163.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "10.5 mm"
+			(at 128.524 169.926 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "AISR-01-104J"
+			(at 127.508 167.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "01-15-21"
+			(at 127.254 165.608 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/AISR-01-104J/Abracon/view-part/"
+			(at 129.032 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 126.746 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
 		(pin "2"
-			(uuid "592a6742-594c-45f9-8a37-c3e9fc41c097")
+			(uuid "566f4443-f4c7-4c03-bf11-f916aa4f5476")
+		)
+		(pin "1"
+			(uuid "430c9246-6b5a-455b-8d3f-9b802c96536b")
 		)
 		(instances
 			(project "AudioEqualizer"
 				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
-					(reference "R12")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -12254,255 +12785,6 @@
 			(project "AudioEqualizer"
 				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Audio_Equalizer:5900-223-RC")
-		(at 158.75 62.23 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d03278d0-3ebe-4017-80d2-f24c18edf5b0")
-		(property "Reference" "L2"
-			(at 148.59 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22m"
-			(at 148.59 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "INDAD6888W80L2286D1151"
-			(at 142.24 -33.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/54/5900_series-777308.pdf"
-			(at 142.24 -133.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Power Inductors - Leaded 22mH 10%"
-			(at 147.574 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 142.24 -333.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 142.24 -433.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "5900-223-RC"
-			(at 142.24 -533.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 142.24 -633.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 142.24 -733.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "5900-223-RC"
-			(at 142.24 -833.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/5900-223-rc/bourns"
-			(at 142.24 -933.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "4289bd42-8601-4119-a3e2-d2605b4c2938")
-		)
-		(pin "2"
-			(uuid "ac40334e-0f86-4818-9328-682494b58ac5")
-		)
-		(instances
-			(project "AudioEqualizer"
-				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Audio_Equalizer:RT1206FRE072KL")
-		(at 59.69 170.18 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d15b27ba-ac43-4b9a-b83c-cf4486ded29f")
-		(property "Reference" "R11"
-			(at 58.166 162.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2k"
-			(at 59.182 165.354 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 67.564 165.608 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
-			(at 70.104 165.862 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5044020-50db-4da1-8200-2b7115cd3e84")
-		)
-		(pin "2"
-			(uuid "e4967064-3072-419e-86ee-92109b2474af")
-		)
-		(instances
-			(project "AudioEqualizer"
-				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -12859,8 +13141,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Equalizer:5900-472-RC")
-		(at 233.68 104.14 270)
+		(lib_id "Audio_Equalizer:RT1206FRE072K05L")
+		(at 67.31 170.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12869,31 +13151,112 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d897f540-fee7-4f6a-9fd8-c30313a4644f")
-		(property "Reference" "L6"
-			(at 236.22 113.0299 90)
+		(uuid "d4305cc8-d1bc-4727-9ca8-4d3e7ba8e821")
+		(property "Reference" "R4"
+			(at 69.85 162.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.05k"
+			(at 69.85 165.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 75.184 165.608 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 77.724 165.862 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 170.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "4.7m"
-			(at 236.22 115.5699 90)
+		(pin "1"
+			(uuid "234bc696-ce1e-4361-a413-7c22b8eb27dd")
+		)
+		(pin "2"
+			(uuid "c247f7ac-4c3e-4729-97de-088ed7ca79de")
+		)
+		(instances
+			(project "AudioEqualizer"
+				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Audio_Equalizer:R82DC4100DQ60J")
+		(at 57.15 119.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d474566a-c3ef-48e1-9dc6-3ab327bced33")
+		(property "Reference" "C46"
+			(at 49.022 114.046 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "INDAD6888W80L2286D1151"
-			(at 137.49 120.65 0)
+		(property "Value" "1u"
+			(at 50.8 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "R82DC4100DQ60J"
+			(at 48.26 23.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12904,8 +13267,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/54/5900_series-777308.pdf"
-			(at 37.49 120.65 0)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_F3101_R82"
+			(at 48.26 -76.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12916,8 +13279,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Power Inductors - Leaded 4.7mH 10%"
-			(at 230.632 114.046 0)
+		(property "Description" "R82, Film, Metallized Polyester Stacked, Automotive Grade, 1 uF, 5%, 40 VAC, 63 VDC, 105C, -55C, 85C, 0.8 % , 5 GOhms, 160 V/us, 7000 pH, 0.53 g, 7.2mm, 10mm, 5mm, Lead Spacing = 5mm, 1700"
+			(at 58.166 114.554 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12927,20 +13290,8 @@
 				)
 			)
 		)
-		(property "Height" ""
-			(at -162.51 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at -262.51 120.65 0)
+		(property "Height" "10.1"
+			(at 48.26 -276.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12951,8 +13302,8 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "5900-223-RC"
-			(at -362.51 120.65 0)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 48.26 -376.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12963,8 +13314,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at -462.51 120.65 0)
+		(property "Manufacturer_Part_Number" "R82DC4100DQ60J"
+			(at 48.26 -476.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12975,8 +13326,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at -562.51 120.65 0)
+		(property "Mouser Part Number" "80-R82DC4100DQ60J"
+			(at 48.26 -576.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12987,8 +13338,8 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "5900-223-RC"
-			(at -662.51 120.65 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/R82DC4100DQ60J?qs=06HLYMEcjuVd2Wr1NUYuhw%3D%3D"
+			(at 48.26 -676.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12999,8 +13350,20 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/5900-223-rc/bourns"
-			(at -762.51 120.65 0)
+		(property "Arrow Part Number" "R82DC4100DQ60J"
+			(at 48.26 -776.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/r82dc4100dq60j/kemet-corporation?region=nac"
+			(at 48.26 -876.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13012,15 +13375,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b3b1fc7c-44e5-48fe-9f50-42a1af57ffe5")
+			(uuid "28d687bb-5dcc-46fd-8727-2d19e43b7cab")
 		)
 		(pin "1"
-			(uuid "21c99bbc-bab6-4c0e-8e23-157d780a8fba")
+			(uuid "f9a26a4e-2826-405a-aaf0-6400247f3320")
 		)
 		(instances
 			(project "AudioEqualizer"
 				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
-					(reference "L6")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -13205,6 +13568,173 @@
 			(project "AudioEqualizer"
 				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
 					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Audio_Equalizer:DRC-0608-223J-UL")
+		(at 151.13 62.23 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db49b9f8-1ef0-43fd-960c-e10d2dfad75b")
+		(property "Reference" "L2"
+			(at 151.13 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22m"
+			(at 151.13 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:IND_DRC-0608-223J-UL"
+			(at 151.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheets/DRC-0608_DRC-0707_DRC-0807+Series+Datasheet.pdf"
+			(at 151.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "Radial Coil Inductors"
+			(at 151.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://snapeda.s3.amazonaws.com/datasheets/DRC-0608_DRC-0707_DRC-0807+Series+Datasheet.pdf"
+			(at 151.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Signal Transformer"
+			(at 151.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "11mm"
+			(at 151.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "DRC-0608-223J-UL"
+			(at 151.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "Mar 08 2023"
+			(at 151.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/DRC-0608-223J-UL/Signal+Transformer/view-part/"
+			(at 151.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 151.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "f1218feb-b3ea-46f0-ad70-47d227f7cc12")
+		)
+		(pin "1"
+			(uuid "2a8e57e1-3f90-4c61-b647-37c4d5054995")
+		)
+		(instances
+			(project "AudioEqualizer"
+				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -13489,7 +14019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:Potentiometer_Alps_RK09L_Double_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
 			(at 209.55 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -14124,6 +14654,173 @@
 		)
 	)
 	(symbol
+		(lib_id "Audio_Equalizer:AISR-01-104J")
+		(at 115.57 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6b6b109-966f-46d2-a7a0-81b159503be7")
+		(property "Reference" "L3"
+			(at 115.57 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100m"
+			(at 115.57 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:IND_AISR-01-104J"
+			(at 118.618 155.956 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/AISR-01-104J_Abracon.pdf"
+			(at 116.84 152.654 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "100 mH Shielded Drum Core, Wirewound Inductor 9 mA 82Ohm Max Radial, Vertical Cylinder"
+			(at 115.824 143.256 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/AISR-01-104J_Abracon.pdf"
+			(at 115.57 145.542 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Abracon"
+			(at 115.824 158.242 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "10.5 mm"
+			(at 115.824 164.846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "AISR-01-104J"
+			(at 114.808 162.814 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "01-15-21"
+			(at 114.554 160.528 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/AISR-01-104J/Abracon/view-part/"
+			(at 116.332 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 114.046 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "a1ea70c4-3fbf-4356-8f55-c4ac413c77fd")
+		)
+		(pin "1"
+			(uuid "297f00f9-8292-47cd-bdb0-8165f776925b")
+		)
+		(instances
+			(project "AudioEqualizer"
+				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Audio_Equalizer:R82EC2220AA50J")
 		(at 195.58 109.22 0)
 		(unit 1)
@@ -14199,172 +14896,6 @@
 			(project "AudioEqualizer"
 				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Audio_Equalizer:5900-472-RC")
-		(at 185.42 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8b93fac-28ce-4bb4-8b63-1e35dd4c6fce")
-		(property "Reference" "L5"
-			(at 195.58 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7m"
-			(at 195.58 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "INDAD6888W80L2286D1151"
-			(at 201.93 215.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/54/5900_series-777308.pdf"
-			(at 201.93 315.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Power Inductors - Leaded 4.7mH 10%"
-			(at 195.326 122.428 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 201.93 515.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 201.93 615.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "5900-223-RC"
-			(at 201.93 715.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 201.93 815.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 201.93 915.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "5900-223-RC"
-			(at 201.93 1015.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/5900-223-rc/bourns"
-			(at 201.93 1115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "15b5bd9b-7a83-4098-9482-a982bfa84bc6")
-		)
-		(pin "1"
-			(uuid "660080fd-92ff-49e1-8b1a-d47a67d5c207")
-		)
-		(instances
-			(project "AudioEqualizer"
-				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
-					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -14532,147 +15063,6 @@
 			(project "AudioEqualizer"
 				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Audio_Equalizer:5900-104-RC")
-		(at 115.57 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fec3428c-aa3c-4086-a72a-0686c5e43d0f")
-		(property "Reference" "L4"
-			(at 125.73 145.034 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100m"
-			(at 125.476 147.574 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "INDAD6888W80L2286D1151"
-			(at 132.08 237.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://www.bourns.com/docs/Product-Datasheets/5900_series.pdf"
-			(at 132.08 337.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "High Current RF Choke Bobbin Core 100mH 10% 1KHz Ferrite 70mA 82Ohm DCR AXL"
-			(at 117.856 150.876 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 132.08 537.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "542-5900-104-RC"
-			(at 132.08 637.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/5900-104-RC?qs=BAEg9VYngsXk6N%252BT0yvXoA%3D%3D"
-			(at 132.08 737.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 132.08 837.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "5900-104-RC"
-			(at 132.08 937.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "40d29647-4a8e-4894-bbf5-98020c99694b")
-		)
-		(pin "2"
-			(uuid "8307b272-25d0-4eb9-91b0-16cad7534bbc")
-		)
-		(instances
-			(project "AudioEqualizer"
-				(path "/8e6ba3cf-9ec0-4b1d-b11b-0ddf27a1689b/8e0a7e18-132d-4840-bd79-5f7f18759a31"
-					(reference "L4")
 					(unit 1)
 				)
 			)

@@ -48,4 +48,16 @@ K
 F https://industrial.panasonic.com/cdbs/www-data/pdf/RDI0000/ABD0000C179.pdf
 $ENDCMP
 #
+$CMP RL181S-104J-RC
+D Bourns 100000 uH +/-5% Ferrite Leaded Inductor, Max SRF:0.09MHz, Q:100, 9A Idc, 82 Rdc RL181S
+K
+F https://componentsearchengine.com/Datasheets/1/RL181S-104J-RC.pdf
+$ENDCMP
+#
+$CMP RL181S-223J-RC
+D Fixed Inductors Inductor, Radial
+K
+F https://componentsearchengine.com/Datasheets/2/RL181S-223J-RC.pdf
+$ENDCMP
+#
 #End Doc Library

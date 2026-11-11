@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
 Circuit: D:\Downloads\GitHub\IEEE Audio Equalizer\AudioEqualizerLTSpice\Equalizer\LCCircuit.net
-Start Time: Sat Nov  7 18:58:13 2026
+Start Time: Tue Nov 10 19:30:51 2026
 
 .step x=1
 solver = Normal
@@ -36,7 +36,7 @@ Direct Newton iteration failed to find operating point.
 Starting Gmin stepping
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.850 seconds.
+Total elapsed time: 2.077 seconds.
 
 Files loaded:
 D:\Downloads\GitHub\IEEE Audio Equalizer\AudioEqualizerLTSpice\Equalizer\LCCircuit.net
